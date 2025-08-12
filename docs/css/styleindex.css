@@ -1,0 +1,190 @@
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.container-fluid .row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+/*------------- Header ------------*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.logo {
+    margin: 10px;
+}
+
+.logo img {
+    width: 75%;
+}
+
+.search {
+    width: 25%;
+    margin-left: 200px;
+}
+
+.header .title {
+    color: red;
+    font-style: italic;
+    margin-right: 50px;
+}
+
+/*------------- Menu ------------*/
+.menu ul {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+/*------- NEW PRODUCTS IN 2023-----*/
+.title-new-product {
+    text-align: center;
+    color: #17bdc2;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.content-left img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.content-right h3 {
+    text-align: center;
+    color: gold;
+    margin-top: 0px;
+}
+
+.content-right li {
+    color: #17bdc2;
+    text-decoration: none;
+}
+
+.content-right .row {
+    margin-top: 20px;
+}
+
+.content-right .row h3 {
+    text-align: start;
+    color: red;
+}
+
+.content-right .row img {
+    width: 80%;
+    margin-left: 0px;
+}
+
+/*------- Best Seller Left -----*/
+.title-best-seller {
+    text-align: center;
+    color: #17bdc2;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.noidung-left {
+    border-right: 2px solid gray;
+    border-bottom: 2px solid gray;
+    box-shadow: 2px 2px 2px gray;
+}
+
+.noidung-left img {
+    width: 60%;
+}
+
+.noidung-left h3 {
+    text-align: center;
+    color: gold;
+}
+
+.noidung-left ul {
+    margin: 20px;
+}
+
+.noidung-left li {
+    color: #0ec0c3;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+.noidung-left .price {
+    margin-top: 30px;
+}
+
+/*------- Best Seller Right -----*/
+.best-seller {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.noidung-right img {
+    width: 100%;
+}
+
+
+.noidung-right .apple-watch {
+    border-right: 2px solid gray;
+    border-bottom: 2px solid gray;
+    box-shadow: 2px 2px 2px gray;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.noidung-right h3 {
+    text-align: center;
+    color: gold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer {
+    background-color: #0ec0c3;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+    .header {
+        display: block;
+        text-align: center;
+    }
+    
+    .header img {
+        width: 30%;
+    }
+
+    .header .search {
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    .header h3 {
+        font-size: 1.1em;
+    }
+
+    .header .title {
+        margin: 0px auto;
+    }
+
+    .noidung-right .apple-watch-first{
+        margin-top: 15px;
+    }
+
+    .noidung-right .apple-watch {
+        width: 92%;
+    }
+
+    .noidung-left {
+        width: 97%;
+    }
+}
+
+
+
